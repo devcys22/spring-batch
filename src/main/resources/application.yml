@@ -1,6 +1,12 @@
 spring:
   datasource:
     url: ${MY_URL}
-    username: ${MY_DATABASE}
+    username: ${MY_USER}
     password: ${MY_PASSWORD}
-    driver-class-name: org.h2.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 20
+
+  batch:
+    jdbc:
+      initialize-schema: always
