@@ -1,4 +1,4 @@
-package com.fastcampus.springbatch.packaze;
+package com.fastcampus.springbatch.repository.packaze;
 
 import com.fastcampus.springbatch.BaseEntity;
 import lombok.Getter;
