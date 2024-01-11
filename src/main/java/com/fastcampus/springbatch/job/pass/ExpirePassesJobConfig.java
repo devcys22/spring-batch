@@ -1,4 +1,4 @@
-package com.fastcampus.springbatch.job;
+package com.fastcampus.springbatch.job.pass;
 
 import com.fastcampus.springbatch.repository.pass.PassEntity;
 import com.fastcampus.springbatch.repository.pass.PassStatus;

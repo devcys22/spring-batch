@@ -1,7 +1,6 @@
 package com.fastcampus.springbatch.job.pass;
 
 import com.fastcampus.springbatch.config.TestBatchConfig;
-import com.fastcampus.springbatch.job.ExpirePassesJobConfig;
 import com.fastcampus.springbatch.repository.pass.PassEntity;
 import com.fastcampus.springbatch.repository.pass.PassRepository;
 import com.fastcampus.springbatch.repository.pass.PassStatus;
